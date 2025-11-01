@@ -60,7 +60,7 @@ multiple Stages.
 
    ![change-package-visibility](docs/change-package-visibility.png)
 
-6. Download and install the latest CLI from [Kargo Releases](https://github.com/akuity/kargo/releases) and Argo CD:
+6. Download and install the latest CLI from [Kargo Releases](https://github.com/BenHesketh21/kargo/releases) and Argo CD:
 
    ```shell
    ./download-cli.sh /usr/local/bin/kargo

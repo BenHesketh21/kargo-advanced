@@ -5,10 +5,10 @@ if [ -z "$1" ]; then
   exit 1
 fi
 
-version=$(basename $(curl -Ls -o /dev/null -w %{url_effective} https://github.com/akuity/kargo/releases/latest))
+version=$(basename $(curl -Ls -o /dev/null -w %{url_effective} https://github.com/BenHesketh21/kargo/releases/latest))
 os=$(uname -s | tr '[:upper:]' '[:lower:]')
 arch=$(uname -m)
-download_url=https://github.com/akuity/kargo/releases/download/${version}/kargo-${os}-${arch}
+download_url=https://github.com/BenHesketh21/kargo/releases/download/${version}/kargo-${os}-${arch}
 
 curl -L -o ${1} ${download_url}
 chmod +x ${1}
